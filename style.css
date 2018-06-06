@@ -1,0 +1,39 @@
+*{
+  font-family:sans-serif;
+}
+.container{
+  text-align:center;
+  background-color:#FFF;
+  padding:30px;
+  width:100%;
+  height:100%;
+  color: #4682B4;
+  font-size: 14px;
+}
+.cipher{
+  display:inline-block;
+  width:40%;
+}
+.cipher label{
+  display:block;
+  width:50%;
+  margin: 20px, auto;
+}
+.cipher button{
+  display:block;
+  width:50%;
+  margin: 30px, auto;
+}
+.decipher{
+  display:inline-block;
+  width:40%;
+}
+.decipher label{
+  display:block;
+  width:50%;
+}
+.decipher button{
+  display:block;
+  width:50%;
+  margin: 30px, auto;
+}
