@@ -10,30 +10,26 @@
   color: #4682B4;
   font-size: 14px;
 }
+.container label{
+  display:block;
+  width: 80%;
+  margin: 20px auto;
+}
+.container textarea{
+  width: 80%;
+}
+.container button{
+  display: block;
+  width: 50%;
+  margin: 10px auto 30px auto;
+}
 .cipher{
   display:inline-block;
   width:40%;
-}
-.cipher label{
-  display:block;
-  width:50%;
-  margin: 20px, auto;
-}
-.cipher button{
-  display:block;
-  width:50%;
-  margin: 30px, auto;
+  margin: 0 10px 0 10px;
 }
 .decipher{
   display:inline-block;
   width:40%;
-}
-.decipher label{
-  display:block;
-  width:50%;
-}
-.decipher button{
-  display:block;
-  width:50%;
-  margin: 30px, auto;
+  margin: 0 10px 0 10px;
 }

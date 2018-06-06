@@ -15,7 +15,7 @@
     var position = getNumberPosition(textoNormal);
     for (var i in position) {
 
-        console.log(position[i] + 65);
+        console.log(position[i] + 65 + 7);
     }
 
     //Converter o códico ASCII de cada letra à posição dessa mesma letra no alfabeto;
