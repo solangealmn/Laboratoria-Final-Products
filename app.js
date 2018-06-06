@@ -3,19 +3,19 @@
     //Obter o valor dos campos;
     var textoNormal = document.getElementById('cipher-entrance').value.toUpperCase();
     //Obter a posição de cada letra;
-    function getCodAscii(textoNormal){
-      var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      var codAscii = [];
+    var alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    function getNumberPosition(textoNormal){
+      var numberPosition = [];
       for(var i in textoNormal){
-        codAscii.push(alphabet.indexOf(textoNormal[i].toUpperCase()));
+        numberPosition.push(alphabet.indexOf(textoNormal[i].toUpperCase()));
       }
-      return codAscii;
+      return numberPosition;
       //console.log(codAscii);
     }
-    var position = getCodAscii(textoNormal);
+    var position = getNumberPosition(textoNormal);
     for (var i in position) {
 
-        //console.log(position[i]);
+        console.log(position[i] + 65);
     }
 
     //Converter o códico ASCII de cada letra à posição dessa mesma letra no alfabeto;
@@ -24,7 +24,7 @@
 
     //validar o valor dos campos;
     if(textoNormal[i] != ' '){
-      for (var charactere = -1; charactere < alfa.length; j++){
+      for (var charactere = -1; charactere < alphabet.length; i++){
       }
     }
 
